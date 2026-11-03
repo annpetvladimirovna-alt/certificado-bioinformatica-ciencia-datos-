@@ -1,0 +1,116 @@
+    1  ??????
+    2  ???
+    3  whoiam
+    4  pwd
+    5  list
+    6  ls
+    7  ls fcb_material_practical
+    8  fcb_material_practical/
+    9  cal ls
+   10  cal list
+   11  list whoiam
+   12  ls
+   13  whoiam
+   14  nano
+   15  head -n 1 Pacifici-data.cav | cut 
+   16  cv Pacifici_data
+   17  head -n 1 Pacifici_data.cav
+   18  ls
+   19  cd tema2/
+   20  ls
+   21  head Pacifici2013_data.csv | cut -d ";" -f 1
+   22  cut -d ";" -f 2 Pacifici2013_data.csv |head -n 5
+   23  cut -d ";" -f 2,8 Pacifici2013_data.csv |head -n 3
+   24  cut -d "i" -f 2 Pacifici2013_data.csv |sort| uniq
+   25  cut -d ";" -f 2 Pacifici2013_data.csv |sort|
+   26  cut -d ";" -f 2 Pacifici2013_data.csv | sort 
+   27  cp Pacifici2013_data.csv copia 
+   28  ls
+   29  adultbodymass_g 
+   30  cat Pacifici2013_data.csv -d ";" -f 2-6
+   31  cat Pacifici2013_data.csv | cut -d ";" -f 2-6
+   32  cat Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr";" " " | sort -n -k 6 > BodyMass_file.csv
+   33  cat Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr";" " "
+   34  tr
+   35  tr -help
+   36  tr --help
+   37  cat Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr ";" " " 
+   38  ls -lah fcb_material_practica1
+   39  ls -a
+   40  ls -lh
+   41  ls -lhS fcb_material_practica1 fcb_material_practica1/analisis_previos/
+   42  cat fcb_material_practica1/ReaD.TXT
+   43  cat fcb_material_practica1/ReaDMe.txt
+   44  ????
+   45  home
+   46  cat README.txt
+   47  LS
+   48  ls
+   49  cd fcb_material_practica1/
+   50  ls
+   51  cat README.txt
+   52  man ls
+   53  history
+   54  history > historial_comandos_a.txt
+   55  historial_comandos_a.txt
+   56  history>historial_comandos_a.txt
+   57  ls
+   58  cat
+   59  cat historial_comandos_a.txt 
+   60  mkdir ~/proyecto_biotec
+   61  mkdir -p
+   62  mkdir -p cd proyecto_biotec
+   63  mkdir -p datos_crudos datos_procesadosscripts resultados documentacion
+   64  cd /home/fcb_alumno13
+   65  ls -la /home/fcb_alumno13/proyecto_biotec
+   66  ls
+   67  cd proyecto_biotec/ls
+   68  cd proyecto_biotec/
+   69  ls
+   70  ~
+   71  mkdir -p datos_crudos datos_procesados scripts resultados documentacion
+   72  ls
+   73  cd/home/fcb_alumno13
+   74  cd /home/fcb_alumno13
+   75  ls -la /home/fcb_alumno13/proyecto_biotec
+   76  ls -F ~/proyecto_biotec
+   77  touch proyecto_biotec/resultados/mis_resultados_finales.txt
+   78  touch proyecto_biotec/resultados/mis\ resultados\finales.txt
+   79  rm proyecto_biotec/resultados/mis\ resultados\ finales.txt
+   80  touch proyecto_biotec/resultados/mis\ resultados\finales.txt
+   81  rm proyecto_biotec/resultados/mis\ resultados\ finales.txt
+   82  touch proyecto_biotec/resultados/mis\ resultados\ finales.txt
+   83  rm proyecto_biotec/resultados/mis\ resultados\ finales.txt
+   84  touch proyecto_biotec/datos_crudos/secuencias_crudas.fasta
+   85  touch proyecto_biotec/datos_procesados/muestras_filtradas.txt
+   86  touch proyecto_biotec/scripts/analisis_calidad.sh
+   87  touch proyecto_biotec/documentacion/notas_proyecto.txt
+   88  cat > proyecto_biotec/documentacion/resumen_tema1.txt
+   89  ls
+   90  cd historial_comandos_B.txt
+   91  cd proyecto_biotec/scripts/historial_comandos_B.txt
+   92  ls proyecto_biotec/scripts/
+   93  history > proyecto_biotec/scripts/historial_comandos_B.txt
+   94  ls proyecto_biotec/scripts/
+   95  cat proyecto_biotec/documentacion/resumen_tema1.txt
+   96  cp -r~/fcb_material_practica1~/proyecto_biotec/datos_crudos/
+   97  cp -r fcb_material_practica1/ proyecto_biotec/datos crudos/
+   98  cp -r fcb_material_practica1/ proyecto_biotec/datos_crudos/
+   99  ls -la ~/proyecto_biotec/datos_crudos/
+  100  cd ~/proyecto_biotec/datos_crudos/fcb_material_practica1
+  101  cat datos_muestras.txt 
+  102  head -n 5 datos_muestras.txt
+  103  tail -n 5 datos_muestras.txt
+  104  wc -l datos_muestras.txt 
+  105  grep -c control datos_muestras.txt 
+  106  grep -c "echerichia_coli" datos_muestras.txt 
+  107  grep -c " Escherichia_coli " datos_muestras.txt 
+  108  grep -c " Escherichia_coli" datos_muestras.txt 
+  109  grep -c  Escherichia_coli datos_muestras.txt 
+  110  grep -c Drosophila_melanogaster datos_muestras.txt 
+  111  grep -c "^>" secuencias_DNA.fasta 
+  112  mkdir ~/proyecto_biotec/temp_borrar
+  113  touch ~/proyecto_biotec/temp_borrar/archivo_prueba.txt
+  114  rmdir ~/proyecto_biotec/temp_borrar
+  115  rm -r ~/proyecto_biotec/temp_borrar
+  116  history > ~/proyecto_biotec/scripts/historial_comandos_C.txt

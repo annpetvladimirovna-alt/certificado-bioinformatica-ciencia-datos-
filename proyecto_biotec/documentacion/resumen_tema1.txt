@@ -1,0 +1,5 @@
+el sistema Kernel es parte central del sistema terminal, se encarga de gestionar el procesador, la memoria,los archivos y la comunicacion entre los programas y los dispositivos de hardware
+la terminal- es la programa donde escribimos comandos para comunicarnos con el ordenador. la shell es la programa la que interpreta esos comandos entre nosotros y Kernel
+unix/linux es fundamental en bioinformatica porque es estable, tiene potente interfaz de linea de comandos, su capacidad de automatizar tareas mediante scriptsu capacidad de automatizar tareas mediante scripts
+history > proyecto_biotec/scripts/historial_comandos_B.txt
+ls

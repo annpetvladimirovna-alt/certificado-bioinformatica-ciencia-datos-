@@ -1,0 +1,56 @@
+    1  ??????
+    2  ???
+    3  whoiam
+    4  pwd
+    5  list
+    6  ls
+    7  ls fcb_material_practical
+    8  fcb_material_practical/
+    9  cal ls
+   10  cal list
+   11  list whoiam
+   12  ls
+   13  whoiam
+   14  nano
+   15  head -n 1 Pacifici-data.cav | cut 
+   16  cv Pacifici_data
+   17  head -n 1 Pacifici_data.cav
+   18  ls
+   19  cd tema2/
+   20  ls
+   21  head Pacifici2013_data.csv | cut -d ";" -f 1
+   22  cut -d ";" -f 2 Pacifici2013_data.csv |head -n 5
+   23  cut -d ";" -f 2,8 Pacifici2013_data.csv |head -n 3
+   24  cut -d "i" -f 2 Pacifici2013_data.csv |sort| uniq
+   25  cut -d ";" -f 2 Pacifici2013_data.csv |sort|
+   26  cut -d ";" -f 2 Pacifici2013_data.csv | sort 
+   27  cp Pacifici2013_data.csv copia 
+   28  ls
+   29  adultbodymass_g 
+   30  cat Pacifici2013_data.csv -d ";" -f 2-6
+   31  cat Pacifici2013_data.csv | cut -d ";" -f 2-6
+   32  cat Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr";" " " | sort -n -k 6 > BodyMass_file.csv
+   33  cat Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr";" " "
+   34  tr
+   35  tr -help
+   36  tr --help
+   37  cat Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr ";" " " 
+   38  ls -lah fcb_material_practica1
+   39  ls -a
+   40  ls -lh
+   41  ls -lhS fcb_material_practica1 fcb_material_practica1/analisis_previos/
+   42  cat fcb_material_practica1/ReaD.TXT
+   43  cat fcb_material_practica1/ReaDMe.txt
+   44  ????
+   45  home
+   46  cat README.txt
+   47  LS
+   48  ls
+   49  cd fcb_material_practica1/
+   50  ls
+   51  cat README.txt
+   52  man ls
+   53  history
+   54  history > historial_comandos_a.txt
+   55  historial_comandos_a.txt
+   56  history>historial_comandos_a.txt
